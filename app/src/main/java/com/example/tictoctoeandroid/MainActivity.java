@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         resetBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(!((Button) view).getText().toString().equals("")))
+                if(!((Button) view).getText().toString().equals(""))
                 {
                     return;}
                 if (player1Turn) {
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             private void  draw()
             {
-                
+
             }
             private void player2Wins() {
             }
